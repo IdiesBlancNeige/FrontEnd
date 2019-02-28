@@ -9,9 +9,22 @@
       <file name="$APPLICATION_CONFIG_DIR$/scratches/VC.html" timestamp="1551204526365">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="D:/FrontEnd/Home Work/Lesson 1/CV.html" timestamp="1551346497448">
+        <mark key="[" line="3" column="3" />
+        <mark key="]" line="3" column="4" />
+        <mark key="." line="3" column="4" />
+        <mark key="^" line="3" column="3" />
+      </file>
     </filemarks>
     <jumps />
-    <registers />
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">PA==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">PA==</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
