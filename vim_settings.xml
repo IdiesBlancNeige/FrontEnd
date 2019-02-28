@@ -12,10 +12,10 @@
       <file name="/JavaScript Console" timestamp="1551373274092">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="D:/FrontEnd/Home Work/Lesson 1/CV.html" timestamp="1551373081922">
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="4" />
-        <mark key="." line="43" column="4" />
+      <file name="D:/FrontEnd/Home Work/Lesson 1/CV.html" timestamp="1551373982610">
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="41" column="20" />
+        <mark key="." line="41" column="20" />
         <mark key="^" line="3" column="3" />
       </file>
       <file name="/" timestamp="1551373279069">
@@ -25,10 +25,10 @@
     <jumps />
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">PA==</text>
+        <text encoding="base64">Pg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PA==</text>
+        <text encoding="base64">Pg==</text>
       </register>
     </registers>
     <search>
