@@ -1,18 +1,80 @@
-h1{
-   position: absolute;
-    margin-left: 220px;
-    font-family: "Comic Sans MS";
-    color: darkgray;
-    text-shadow: 1px 1px #333333;
+<!--*{
+    background-color: rgba(118,117,128,0.1);
+}-->
+.container{
+    width:75%;
+    color:#c3c3c3;
+    background:grey;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: justify;
 }
-process{
-    position: static}
-SearchField{
+.heading{
+    padding-top:40px;
+    margin-left:30px;
+}
+.text{
+    display: inline-block;
+    font-size:100px;
+    font-weight: bold;
+    margin-right:45%;
+    color:#c3c3c3
+}
+.button{
+    display: inline-block;
+    font-size:100px;
+    font-weight: bold;
+    color:#dcdcdc;
+    padding-top:20px;
+    cursor: pointer;
+}
+
+.heads:hover{
+    color:#d16b80
+}
+.heads{
+    margin-top:30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    height:50px;
+    margin-left:5px;
+    vertical-align:middle;
+    color:#c3c3c3
+
 
 }
-SearchText{
+.people:after{
+    content: ' i i i i i i i i ';
+    word-spacing: 97px;
+    padding-left: 97px;
+    visibility: hidden;
+}
+.box, .photo, .name{
+    display: inline-block;
+}
+.box:hover{
+    background:#e4e4e6;
+    color:#d16b80;
+    border-radius:5px;
+}
+.box{
+    width:30%;
+    height:77px;
+    text-align:left;
+    background:#ebebed;
+    margin-left:5px;
+    margin-top:3px;
+    color:#c3c3c3;
+    font-weight: bold;
 
 }
-SearchButton{
-
+.round{
+    border-radius:100px;
 }
+.photo{
+    margin:10px 5px;
+    vertical-align:middle;
+}
+
