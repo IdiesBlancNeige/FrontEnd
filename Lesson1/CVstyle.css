@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('/fonts/Proxima Nova Regular.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+h1{
+    font-family: "Proxima Nova Regular";
+    font-style: italic;
+}
+h2{
+    font-family: "Proxima Nova Regular";
+    font-style: italic;
+}
+h3{
+    font-family: "Proxima Nova Regular";
+    font-style: italic;
+}
+li{
+    font-family: "Proxima Nova Regular";
+    font-style: italic;
+}
