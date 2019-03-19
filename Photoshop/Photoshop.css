@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::after
+*::before{
+box-sizing:border-box;
+}
+.Bgbanner{
+    background-image: url("./img/banner/mainbanner.png");
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 800px;
+    z-index: 168;
+    }
+.header{
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto ;
+    padding: 1em;
+    }
+h2{
+    color: white;
+    display: inline-block;
+    float:left;
+    line-height: 50px;
+    font-family: Calibri;
+    font-size: x-large;
+    font-style: italic;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    line-height: 50px;
+    float:right;
+    font-family: Calibri;
+    font-size:large;
+    font-style: italic;
+    font-weight: bold;
+    }
+li{
+    float: right;
+    color: white;
+    text-align: center;
+    width: 110px;
+}
+li:hover{
+    color: #e71cb4;
+    border-bottom: solid #e71cb4;
+}
+main{
+    position: relative;
+}
+.areyou{
+    height: 750px;
+    font-family: Calibri;
+
+}
+
+h1{
+    color:white;
+    padding-top: 247px;
+    text-align: center;
+    font-size: 450%;
+}
+p{
+    color:white;
+    text-align: center;
+    font-size: 200%;
+}
+.headbutton{
+    width: 268px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 2px #dddddd;
+    margin: 71px auto;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+.headbutton:hover{
+    background-color: white;
+    color: #333333;
+}
+.DSbattles{
+    background-color: white;
+}
+#designbattlesh1{
+    color: #e71cb4;
+}
+.Bgbattles {
+    width: 1920px;
+    height: 1618px;
+    background-image: linear-gradient(to top, #ff00cc, #333399 64%);
+}
+.DSbattles p{
+    color:black;
+}
