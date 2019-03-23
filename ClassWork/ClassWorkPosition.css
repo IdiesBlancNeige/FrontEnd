@@ -1,0 +1,129 @@
+/*body{
+    height: 200vh;
+    position: relative;
+}
+.box-set{
+    left: 40px;
+    width: 300px;
+    height: 500px;
+    background: lightgrey;
+    border-radius: 15px;
+    position: relative;
+    opacity: 0.8;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 15px;
+    font-family: Calibri;
+}
+.boxitem1{
+   top: 20px;
+   background: forestgreen;
+   z-index: 1;
+}
+.boxitem2{
+   top: -40px;
+    left: 30px;
+    background: cornflowerblue;
+    z-index: 2;
+}
+.boxitem3{
+   top: -100px ;
+   left: -70px;
+   background: yellow;
+   z-index: 3;
+}
+.boxitem4{
+   top: -200px;
+   background: coral;
+   z-index: 4;
+}
+h4{
+    padding-top: 60px;
+    text-align: center;
+}
+.abscentr{
+    width: 100px;
+    height: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: chartreuse;
+    border-radius: 10px;
+    text-align: center;
+}
+*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+}
+.menu{
+    background: coral;
+    color: #dddddd;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.boxholder{
+}
+.box{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 15px;
+    font-family: Calibri;
+    text-align: center;
+}
+.box-set{
+    top: 100px;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: gainsboro;
+    opacity: 0.5;
+    position: relative;
+    z-index: 0;
+
+}
+.boxitem1{
+    top: 0;
+    left: 0;
+    background: forestgreen;
+    }
+.boxitem2{
+    top: 0;
+    right: 0px;
+    background: cornflowerblue;
+}
+.boxitem3{
+    bottom: 0;
+    left: 0;
+    background: yellow;
+}
+.boxitem4{
+    right: 0;
+    bottom: 0;
+    background: coral;
+    }
+h4{
+    padding-top: 50px;
+    text-align: center;
+}
+.boxitem5{
+    background: #333333;
+    color: #dddddd;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
