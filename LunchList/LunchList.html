@@ -1,13 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Lunch List</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>CSS Lunch List</title>
     <link rel="stylesheet" href="LunchList.css">
 </head>
 <body>
-<div>
-
-</div>
+    <header>
+         <h1>CSS Diner Shopping List</h1>
+         <span>Let's go to the mall!</span>
+    </header>
+<table class="lunchlist">
+    <tbody>
+    <tr>
+        <td>
+            <label for="first">
+                <input id="first" type="checkbox">
+                <span class="leaditem"> A lot of pickles
+                    <span class="lastitem">for the next lessons about CSS</span>
+                </span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="second">
+                <input id="second" type="checkbox">
+                <span class="leaditem"> 10 apples
+                    <span class="lastitem">for more CSS manipulation</span>
+                </span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="third">
+                <input id="third" type="checkbox">
+                <span class="leaditem"> 20 oranges
+                    <span class="lastitem">because they are awesome</span>
+                </span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="fourth">
+                <input id="fourth" type="checkbox">
+                <span class="leaditem"> 13 plates
+                    <span class="lastitem">hm... they always disappear</span>
+                </span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="fifth">
+                <input id="fifth" type="checkbox">
+                <span class="leaditem"> 15 bentos</span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="sixth">
+                <input id="sixth" type="checkbox">
+                <span class="leaditem"> 1 bottle of Sake ^_^
+                    <span class="lastitem">for my friends</span>
+                </span>
+            </label>
+        </td>
+    </tr>
+    </tbody>
+</table>
+    <footer>
+    <span class="footer">Bon appetit:)</span>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/proxima_nova_regular-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 55px;
+    margin-left: 15%;
+}
+
+h5 {
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .3);
+    letter-spacing: 3px;
+    margin-left: 15%;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    color: rgba(0, 0, 0, .5);
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-left: 15%;
+}
+
+p {
+    font-family: Georgia, serif;
+    width: 70%;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+body {
+    background-color: grey;
+}
+
+ul {
+    list-style: none;
+}
+
+ul, li {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-top: 230px;
+    padding-bottom: 30px;
+}
+
+.heading {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: black;
+    height: 180px;
+    width: 65%;
+}
+
+.heading span {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    color: #777;
+    text-transform: uppercase;
+    font-family: 'ProximaNova', sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.text {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    height: 60px;
+    width: 94%;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(56, 56, 56);
+}
+
+.text:active, .text:hover, .text:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.text::placeholder {
+    font-family: PlayfairDisplay;
+    color: white;
+}
+
+.icons {
+    background-color: #fbc02d;
+    /*padding: 25px 320px 20px 45px;*/
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+li {
+    padding-right: 20px;
+    opacity: 0.6;
+}
+
+li:hover {
+    opacity: 1;
+}

@@ -1,3 +1,90 @@
-*{
-
+* {
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: #3B3F45;
+    min-height: 100%;
+}
+header {
+    width: 100%;
+    color: #EB7E7F;
+    background-color: #4A4F56;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+header h1+span{
+    font-size: 24px;
+}
+.lunchlist {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.lunchlist, footer {
+    margin: 0 auto;
+    width: 50%;
+}
+.lunchlist tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lunchlist tr:nth-child(odd) {
+    background-color: #88839e;
+}
+.lunchlist tr:nth-child(even) {
+    background-color: #7a7593;
+}
+.lunchlist .leaditem {
+    color: white;
+}
+.lunchlist .lastitem {
+    font-size: 14px;
+    color: #C5BDC3;
+}
+.lunchlist tr td:hover {
+    background-color: #625E77;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.lunchlist tr td:active {
+    background-color: green;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.lunchlist input[type="checkbox"]:checked ~ span{
+    color: #A49EB2;
+    text-decoration: line-through;
+}
+.lunchlist label, input[type="checkbox"]{
+    cursor: pointer;
+}
+.lastitem:before {
+    content: "( ";
+}
+.lastitem:after {
+    content: " )";
+}
+td {
+    padding-left: 10px;
+}
+footer {
+    color: lightcoral;
+    background-color: #4A4F56;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer, .lunchlist {
+    font-size: 22px;
 }
