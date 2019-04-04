@@ -1,0 +1,23 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mainblock{
+    display: flex;
+    height: 80vh;
+    width: 80%;
+    background: white;
+}
+.block{
+    background: blue;
+    order: 1;
+}
+.mainblock div:first-child{
+    background: limegreen;
+    order: 2;
+}
+.mainblock div:nth-child(5){
+    background: red;
+    order:0;
+}
