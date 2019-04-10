@@ -32,8 +32,8 @@ a:hover{
 h6{
     font-family: "Comic Sans MS";
     position: absolute;
-    bottom: 10px;
-    right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
     font-size: xx-small;
     color: lightgrey;
     text-shadow: 1px 1px dimgrey;

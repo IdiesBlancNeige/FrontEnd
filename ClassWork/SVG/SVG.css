@@ -1,0 +1,38 @@
+main {
+    display: flex;
+
+}
+.MainPage{
+    background: cadetblue;
+    color: #dddddd;
+    height: 100vh;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+.list {
+    color: lightcoral;
+    margin-right: 50px;
+    margin-top: 50px;
+    justify-content: flex-end;
+    font-size: large;
+    font-style: italic;
+    font-family: "Bookman Old Style";
+    position: relative;
+}
+li a{
+    color: #dddddd;
+}
+.theory {
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    display: flex;
+    margin: 5em;
+    flex-wrap: wrap;
+}
+#title{
+    background: #88839e;
+}
