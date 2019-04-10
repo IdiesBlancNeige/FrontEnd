@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+div{
+    display: block;
+}
+#wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.floats h1{
+    background: gold;
+    height: 50px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+.ba-header, .ba-box{
+    height: 100px;
+    background: mediumturquoise;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.ba-group{
+    margin-top: 10px;
+    height:100px;
+    background: #C5BDC3;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ba-left{
+    float: left;
+    width: 70%;
+    height: 95%;
+    border-radius: 10px;
+    background: gold;
+    text-align: center;
+}
+.ba-right{
+    float: right;
+    width: 29%;
+    height: 95%;
+    border-radius: 10px;
+    background: gold;
+    text-align: center;
+}
+.ba-col\.holder{
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.ba-col1{
+    height: 100%;
+    width: 32%;
+    background: gold;
+    border-radius: 10px;
+    text-align: center;
+}
+.ba-col2{
+    height: 100%;
+    width: 32%;
+    background: gold;
+    border-radius: 10px;
+    text-align: center;
+}
+.ba-col3{
+    height: 100%;
+    width: 32%;
+    background: gold;
+    border-radius: 10px;
+    text-align: center;
+}
+.ba-footer{
+    margin-top: 10px;
+    height: 100px;
+    background: mediumturquoise;
+    text-align: center;
+    border-radius: 10px;
+}
