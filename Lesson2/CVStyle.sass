@@ -1,0 +1,38 @@
+@keyframes example
+  from
+    background-color: aliceblue
+  to
+    background-color: blanchedalmond
+$static-textcolor: cornflowerblue
+$fonth1: "Bookman Old Style"
+$fonth2: "Comic Sans MS"
+$h1shadow: 1px 1px grey
+$h2shadow: 2px 2px grey
+$lmargin: 50px
+$decoration: underline
+$font-weight: inherit
+$font-size: xx-large
+$section-color: navajowhite
+$transform: capitalize
+$spacing: 3px
+$height: 100vh
+*
+  color: $static-textcolor
+  font-family: $fonth1
+  text-shadow: $h1shadow
+body
+  height: $height
+  animation: example 2s alternate-reverse infinite
+h1
+  text-decoration-line: $decoration
+  font-weight: $font-weight
+  margin-left: $lmargin
+h2:first-letter
+  text-shadow: $h2shadow
+  font-family: $fonth2
+  font-size: $font-size
+::selection
+  color: $section-color
+p
+  text-transform: $transform
+    letter-spacing: $spacing
